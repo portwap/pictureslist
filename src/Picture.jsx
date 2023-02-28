@@ -1,5 +1,4 @@
 const Picture = ({ id, author, removePicture }) => {
-  console.log(author, id);
   const image = `https://picsum.photos/id/${id}/300/200`;
   return (
     <article className='single-tour'>

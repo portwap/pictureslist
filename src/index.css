@@ -199,6 +199,7 @@ main {
   /* margin: 2rem 0; */
   box-shadow: var(--light-shadow);
   transition: var(--transition);
+  text-align: center;
 }
 
 .single-tour:hover {
@@ -232,7 +233,6 @@ main {
   color: var(--clr-primary-5);
   font-size: 1rem;
   cursor: pointer;
-  padding-left: 0.25rem;
 }
 
 .tour-price {
@@ -264,6 +264,25 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+}
+
+.single-tour .random-btn {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  border: 1px solid var(--clr-primary-5);
+}
+
+.random-btn:hover {
+  background: var(--clr-primary-5);
+  color: var(--clr-primary-1);
+}
+
+.toggle-mode-btn {
+  margin: 0 auto;
+  display: block;
 }
 
 /* Copyright Section */
